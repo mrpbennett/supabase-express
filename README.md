@@ -35,7 +35,19 @@ only requires four datapoints which consist of:
 - Page count
 - ISBN
 
+```
+/api/mod-book/:id
+```
+
+This endpoint allows for the user to modify a book entry
+
+```
+/api/delete-book/:id
+```
+
+This endpoint allows the user to delete a book from the database via an ID
+
 ## ToDo:
 
-- [ ] Add a `PUT` endpoint to allow for modification of entries.
-- [ ] Add better error handling
+- [x] Add a `PUT` endpoint to allow for modification of entries.
+- [x] Add better error handling
